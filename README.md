@@ -168,7 +168,7 @@ see chapter 26 - removing array of roles from User class
 (4-1)
 add a new String `role` property to the User entity
 
-HINT: use `make:crud User` and add the new property
+HINT: use `make:entity User` and add the new property
 
 (4-2)
 change the `getRoles()` method to simply return the string role wrapped in an array:
